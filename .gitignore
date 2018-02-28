@@ -1,0 +1,67 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Unneeded documents
+STM32Cube_FW_F0_V1.9.0/*
+!STM32Cube_FW_F0_V1.9.0/Drivers
+STM32Cube_FW_L0_V1.10.0/*
+!STM32Cube_FW_L0_V1.10.0/Drivers
+*.htm
+*.html
+*.bmp
+*.jpg
+*.png
+*.gif
+*.TMP
+*.js
+*.css
