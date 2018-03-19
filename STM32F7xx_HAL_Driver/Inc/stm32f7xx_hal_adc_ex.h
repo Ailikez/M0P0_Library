@@ -252,7 +252,7 @@ typedef struct
 /** @addtogroup ADCEx_Exported_Functions
   * @{
   */
-	
+    
 /** @addtogroup ADCEx_Exported_Functions_Group1
   * @{
   */
@@ -290,7 +290,7 @@ HAL_StatusTypeDef HAL_ADCEx_MultiModeConfigChannel(ADC_HandleTypeDef* hadc, ADC_
 /**
   * @}
   */
-	
+    
 /* Private macros ------------------------------------------------------------*/
 /** @defgroup ADCEx_Private_Macros ADC Private Macros
   * @{
@@ -333,7 +333,7 @@ HAL_StatusTypeDef HAL_ADCEx_MultiModeConfigChannel(ADC_HandleTypeDef* hadc, ADC_
                                             ((__INJTRIG__) == ADC_EXTERNALTRIGINJECCONV_T5_TRGO)  || \
                                             ((__INJTRIG__) == ADC_EXTERNALTRIGINJECCONV_T3_CC1)   || \
                                             ((__INJTRIG__) == ADC_EXTERNALTRIGINJECCONV_T6_TRGO)  || \
-											((__INJTRIG__) == ADC_INJECTED_SOFTWARE_START))
+                                            ((__INJTRIG__) == ADC_INJECTED_SOFTWARE_START))
 #define IS_ADC_INJECTED_LENGTH(__LENGTH__) (((__LENGTH__) >= ((uint32_t)1)) && ((__LENGTH__) <= ((uint32_t)4)))
 #define IS_ADC_INJECTED_RANK(__RANK__) (((__RANK__) >= ((uint32_t)1)) && ((__RANK__) <= ((uint32_t)4)))
 
@@ -348,7 +348,7 @@ HAL_StatusTypeDef HAL_ADCEx_MultiModeConfigChannel(ADC_HandleTypeDef* hadc, ADC_
 /**
   * @}
   */
-	
+    
 /* Private functions ---------------------------------------------------------*/
 /** @defgroup ADCEx_Private_Functions ADC Private Functions
   * @{
@@ -361,7 +361,7 @@ HAL_StatusTypeDef HAL_ADCEx_MultiModeConfigChannel(ADC_HandleTypeDef* hadc, ADC_
 /**
   * @}
   */
-	
+    
 /**
   * @}
   */

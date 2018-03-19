@@ -496,7 +496,7 @@ HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress,
   else
   {
     /* Process unlocked */
-    __HAL_UNLOCK(hdma);	  
+    __HAL_UNLOCK(hdma);      
     
     /* Return error status */
     status = HAL_BUSY;
@@ -874,7 +874,7 @@ void HAL_DMA_IRQHandler(DMA_HandleTypeDef *hdma)
          
         /* Change the DMA state */
         hdma->State = HAL_DMA_STATE_READY;
-	
+    
         if(hdma->XferAbortCallback != NULL)
         {
           hdma->XferAbortCallback(hdma);
@@ -1293,7 +1293,7 @@ static HAL_StatusTypeDef DMA_CheckFifoParam(DMA_HandleTypeDef *hdma)
         {
           status = HAL_ERROR;
         }
-		break;
+        break;
       default:
         break;
     }

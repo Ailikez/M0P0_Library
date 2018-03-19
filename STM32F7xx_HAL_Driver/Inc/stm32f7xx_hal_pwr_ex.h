@@ -84,7 +84,7 @@
 /**
   * @}
   */
-	
+    
 /** @defgroup PWREx_Regulator_state_in_UnderDrive_mode PWREx Regulator state in UnderDrive mode
   * @{
   */
@@ -103,7 +103,7 @@
 /**
   * @}
   */
-	
+    
 /** @defgroup PWREx_Wakeup_Pins_Flag PWREx Wake Up Pin Flags
   * @{
   */
@@ -241,7 +241,7 @@ HAL_StatusTypeDef HAL_PWREx_EnterUnderDriveSTOPMode(uint32_t Regulator, uint8_t 
                                             ((__PIN__) == PWR_WAKEUP_PIN3)       || \
                                             ((__PIN__) == PWR_WAKEUP_PIN4)       || \
                                             ((__PIN__) == PWR_WAKEUP_PIN5)       || \
-                                            ((__PIN__) == PWR_WAKEUP_PIN6)  		 || \
+                                            ((__PIN__) == PWR_WAKEUP_PIN6)           || \
                                             ((__PIN__) == PWR_WAKEUP_PIN1_HIGH)  || \
                                             ((__PIN__) == PWR_WAKEUP_PIN2_HIGH)  || \
                                             ((__PIN__) == PWR_WAKEUP_PIN3_HIGH)  || \
@@ -252,7 +252,7 @@ HAL_StatusTypeDef HAL_PWREx_EnterUnderDriveSTOPMode(uint32_t Regulator, uint8_t 
                                             ((__PIN__) == PWR_WAKEUP_PIN2_LOW)   || \
                                             ((__PIN__) == PWR_WAKEUP_PIN3_LOW)   || \
                                             ((__PIN__) == PWR_WAKEUP_PIN4_LOW)   || \
-                                            ((__PIN__) == PWR_WAKEUP_PIN5_LOW)	 || \
+                                            ((__PIN__) == PWR_WAKEUP_PIN5_LOW)     || \
                                             ((__PIN__) == PWR_WAKEUP_PIN6_LOW))
 /**
   * @}

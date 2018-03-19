@@ -69,7 +69,7 @@
 #define IS_UART_WORD_LENGTH(__LENGTH__) (((__LENGTH__) == UART_WORDLENGTH_7B) || \
                                          ((__LENGTH__) == UART_WORDLENGTH_8B) || \
                                          ((__LENGTH__) == UART_WORDLENGTH_9B))
-#define IS_LIN_WORD_LENGTH(LENGTH) (((LENGTH) == UART_WORDLENGTH_8B))																				 
+#define IS_LIN_WORD_LENGTH(LENGTH) (((LENGTH) == UART_WORDLENGTH_8B))                                                                                 
 /**
   * @}
   */
@@ -243,7 +243,7 @@
         default:                                              \
           break;                                              \
        }                                                      \
-    } 																												\
+    }                                                                                                                 \
     else if ((__HANDLE__)->Instance == UART8)                 \
     {                                                         \
        switch(__HAL_RCC_GET_UART8_SOURCE())                   \
@@ -263,7 +263,7 @@
         default:                                              \
           break;                                              \
        }                                                      \
-    } 																												\
+    }                                                                                                                 \
   } while(0)
 
 /** @brief  Reports the UART mask to apply to retrieve the received data
