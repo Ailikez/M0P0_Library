@@ -64,3 +64,5 @@ STM32Cube_FW*/*
 *.js
 *.css
 *.chm
+*.pdf
+*.rtf
