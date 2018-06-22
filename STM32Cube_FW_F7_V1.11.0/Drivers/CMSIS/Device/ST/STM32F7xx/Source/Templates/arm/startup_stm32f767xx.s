@@ -492,13 +492,13 @@ MDIOS_IRQHandler
                  IF      :DEF:__MICROLIB
                 
                  EXPORT  __initial_sp
-                 EXPORT  __heap_base
-                 EXPORT  __heap_limit
+                 EXPORT  __heap_base [WEAK]
+                 EXPORT  __heap_limit [WEAK]
                 
                  ELSE
                 
-                 IMPORT  __use_two_region_memory
-                 EXPORT  __user_initial_stackheap
+                 IMPORT  __use_two_region_memory [WEAK]
+                 EXPORT  __user_initial_stackheap [WEAK]
                  
 __user_initial_stackheap
 
